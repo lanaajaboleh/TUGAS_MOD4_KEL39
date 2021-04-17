@@ -9,7 +9,7 @@ public class hargatiket {
 
         //TAMPILAN AWAL
         pendefinisi.cetak8();
-        System.out.println("----------------PT.KAI PEKALONGAN--------------");
+        System.out.println("----------------PT KAI PEKALONGAN--------------");
         System.out.println("  SELAMAT DATANG DI LAYANAN PT KAI PEKALONGAN");
         pendefinisi.cetak8();
         System.out.print("\n");
