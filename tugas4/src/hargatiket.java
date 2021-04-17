@@ -65,4 +65,74 @@ public class hargatiket {
                             break;
                     }
                 }
+                
+            }
+            //TIKET KE BOYOLALI//
+            else if (try1 == 2) {
+
+                back="a";
+
+                pendefinisi.cetak6("Boyolali");
+                pendefinisi.cetak8();
+
+                String back2 ="z";
+
+                while(back2=="z"){
+                    pendefinisi.cetak3();
+                    int try2 = scan.nextInt();
+                    pendefinisi.cetak8();
+
+                    switch (try2) {
+                        case (1): hargasatuan = 90000;
+                            pendefinisi.cetak2(penumpang,hargasatuan);
+                            back2="a";
+                            break;
+                        case (2): hargasatuan = 140000;
+                            pendefinisi.cetak2(penumpang,hargasatuan);
+                            back2="a";
+                            break;
+                        case (3): hargasatuan = 180000;
+                            pendefinisi.cetak2(penumpang,hargasatuan);
+                            back2="a";
+                            break;
+                        default: pendefinisi.cetak5();
+                            back2="z";
+                            break;
+                    }
+                }
+            }
+
+            //TIKET KE SALATIGA//
+            else if (try1 == 3) {
+
+                back="a";
+
+                pendefinisi.cetak6("Salatiga");
+                pendefinisi.cetak8();
+
+                String back2 ="z";
+
+                while(back2=="z"){
+                    pendefinisi.cetak3();
+                    int try2 = scan.nextInt();
+                    pendefinisi.cetak8();
+
+                    switch (try2) {
+                        case (1): hargasatuan = 115000;
+                            pendefinisi.cetak2(penumpang,hargasatuan);
+                            back2="a";
+                            break;
+                        case (2): hargasatuan = 165000;
+                            pendefinisi.cetak2(penumpang,hargasatuan);
+                            back2="a";
+                            break;
+                        case (3): hargasatuan = 215000;
+                            pendefinisi.cetak2(penumpang,hargasatuan);
+                            back2="a";
+                            break;
+                        default: pendefinisi.cetak5();
+                            back2="z";
+                            break;
+                    }
+                }
             }
