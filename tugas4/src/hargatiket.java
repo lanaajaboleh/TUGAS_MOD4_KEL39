@@ -136,3 +136,41 @@ public class hargatiket {
                     }
                 }
             }
+
+            else {
+                pendefinisi.cetak5();
+                back="y";
+            }
+        }
+
+        pendefinisi.cetak8();
+        System.out.print("\n");
+
+        //SCANNER UNTUK ARRAY YANG AKAN DIISI NAMA
+        Scanner inputary = new Scanner(System.in);
+
+        //INISIALISASI ARRAY KOLOM 0
+        String [][] ary = new String[2][2];
+        ary[0][0] = "Nama       : ";
+        ary[1][0] = "NIM        : ";
+
+        for (int i=1;i<=penumpang;i++) {
+            System.out.println("Silahkan lengkapi identitas penumpang ke-" +i);
+
+            System.out.print(ary[0][0]);
+            ary[0][1] = inputary.nextLine();
+
+            System.out.print(ary[1][0]);
+            ary[1][1] = inputary.nextLine();
+
+            System.out.print("\n");
+        }
+
+            //PENUTUP//
+            System.out.print("\n");
+            pendefinisi.cetak8();
+            System.out.println("  TERIMAKASIH TELAH MENGGUNAKAN LAYANAN KAMI");
+            System.out.println("       TIKET ANDA AKAN SEGERA KAMI PROSES");
+            pendefinisi.cetak8();
+        }
+    }
